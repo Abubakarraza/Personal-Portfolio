@@ -13,7 +13,7 @@ const Form = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-    setDisable(true);
+
     if (!email || !name || !message) {
       return toast({
         title: 'Warning.',
@@ -23,6 +23,7 @@ const Form = () => {
         isClosable: true,
       });
     }
+    setDisable(true);
     const data = await addDoc(collectionRef, {
       name,
       email,
