@@ -5,8 +5,7 @@ import About from '../components/UI/About';
 import Portfolio from '../components/UI/Portfolio';
 import Testimonial from '../components/UI/Testimonial';
 import Contact from '../components/UI/Contact';
-import Hello from '../components/UI/Hello';
-import Raza from '../components/UI/Raza';
+
 import Head from 'next/head';
 
 export default function Home() {
