@@ -2,6 +2,7 @@
   width: 100%;
   height: 80px;
   line-height: 80px;
+  background: #0e1630;
 }
 
 .nav__wrapper {
@@ -52,7 +53,7 @@
 }
 
 .nav__right p::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 25%;
   left: -20px;

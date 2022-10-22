@@ -18,8 +18,8 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m M AbuBakar Raza</h2>
               <h5 className="mb-4">Full Stack Developer</h5>
               <p>
-                I&apos;m Website and App developer Using React Js and Next Js in
-                Web and React Native in Mobile Application
+                I&apos;m a Web and App developer Using React Js and Next Js on
+                the Web and Using React Native in Mobile Applications.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
