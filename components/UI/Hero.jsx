@@ -18,9 +18,8 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m M AbuBakar Raza</h2>
               <h5 className="mb-4">Full Stack Developer</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+                I&apos;m Website and App developer Using React Js and Next Js in
+                Web and React Native in Mobile Application
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
