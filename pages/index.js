@@ -7,16 +7,24 @@ import Testimonial from '../components/UI/Testimonial';
 import Contact from '../components/UI/Contact';
 import Hello from '../components/UI/Hello';
 import Raza from '../components/UI/Raza';
+import Head from 'next/head';
 
 export default function Home() {
   return (
-    <Fragment>
-      <Hero />
-      <Services />
-      <About />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
-    </Fragment>
+    <>
+      <Head>
+        <title>Abubakar Raza</title>
+        <meta name="description" content="Abubakar Raza Portfolio" />
+      </Head>
+      <Fragment>
+        <Head>Abubakar</Head>
+        <Hero />
+        <Services />
+        <About />
+        <Portfolio />
+        <Testimonial />
+        <Contact />
+      </Fragment>
+    </>
   );
 }

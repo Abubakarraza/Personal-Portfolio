@@ -32,7 +32,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <footer>
+    <footer style={{ background: '#0e1630' }}>
       <Container>
         <Row>
           {/* ========= footer top =========== */}
